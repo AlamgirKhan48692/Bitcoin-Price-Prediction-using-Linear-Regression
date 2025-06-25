@@ -1,4 +1,5 @@
 📈 Bitcoin Price Prediction using Linear Regression
+
 This project builds a simple machine learning model to predict the next day's Bitcoin closing price using historical daily trading data. It involves data preprocessing, feature engineering, and training a linear regression model. The performance is evaluated using common regression metrics and visualized with Matplotlib.
 
 📂 Dataset
@@ -32,6 +33,7 @@ Volume
 Target: Next day's Close price
 
 🚀 Workflow
+
 1. Load & Preprocess the Data
 Convert Open Time to datetime
 
@@ -62,13 +64,17 @@ R² Score
 Actual vs Predicted prices plotted using Matplotlib
 
 📊 Evaluation Example
+
 makefile
 Copy
 Edit
 MAE: 312.25
 RMSE: 408.33
 R²: 0.8724
+
+
 📌 Requirements
+
 Python 3.x
 
 pandas
@@ -80,8 +86,11 @@ matplotlib
 scikit-learn
 
 📸 Sample Output Plot
+
 (optional if you generate a plot image)
 
+
 ✍️ Author
+
 Alamgir Khan
 📘 GitHub Profile
