@@ -3,6 +3,7 @@
 This project builds a simple machine learning model to predict the next day's Bitcoin closing price using historical daily trading data. It involves data preprocessing, feature engineering, and training a linear regression model. The performance is evaluated using common regression metrics and visualized with Matplotlib.
 
 📂 Dataset
+
 The dataset consists of daily Bitcoin trading data with the following features:
 
 Open Time: Timestamp of the trading day start
@@ -17,9 +18,11 @@ Close: Closing price (used as target)
 
 Volume: Trading volume for the day
 
+
 📥 Download Sample CSV from CryptoDataDownload
 
 🔧 Features Used
+
 The following features were selected for prediction:
 
 Open
@@ -31,6 +34,7 @@ Low
 Volume
 
 Target: Next day's Close price
+
 
 🚀 Workflow
 
@@ -50,8 +54,10 @@ Use 80% for training, 20% for testing (no shuffle to maintain time sequence)
 python
 Copy
 Edit
+
+
 from sklearn.linear_model import LinearRegression
-4. Evaluate Model
+5. Evaluate Model
 Metrics:
 
 MAE (Mean Absolute Error)
@@ -61,7 +67,9 @@ RMSE (Root Mean Squared Error)
 R² Score
 
 5. Visualize
+6. 
 Actual vs Predicted prices plotted using Matplotlib
+
 
 📊 Evaluation Example
 
